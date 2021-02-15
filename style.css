@@ -3,12 +3,23 @@ body{
   background-color: #28303d;
 }
 
-.home .site-title {
+.site-branding{
+  width: 100%;
+  text-align: center;
+}
+
+#primary{
+  max-width: none;
+  margin:auto;
+}
+
+
+.site-title {
 background-color: #8c271e;
 font-weight: bolder;
 }
 
-.home .site-header{
+.site-header{
   padding-bottom:0;
 }
 
