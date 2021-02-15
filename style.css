@@ -1,6 +1,7 @@
 body{
   font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
   background-color: #28303d;
+  color:#fff;
 }
 
 .site-branding{
@@ -146,84 +147,6 @@ background-color: #28303d;
 .sp-tab__section_title_130{display:none;}
 
 
-
-
-
-
-/* ========= STARThomemade video cover with gif =========== */
-
-.video-container {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  width: 640px;
-  height: 427px;
-  overflow: hidden;
-	margin:0;
-}
-
-.overlay {
-  background-color:#00000029;
-  opacity: 1;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  padding: 15% 32px;
-  line-height: 1.5;
-  text-align: center;
-  :last-child { margin-bottom: 0; }
-}
-
-code { font-family: monospace; }
-/* ========= END homemade video cover with gif =========== */
-
-
-
-
-.fp-flexcontainer { /* container illustration + text */
-  display: flex;
-  	max-width: 80% !important;
-	margin-top:0 !important;
-}
-
-.su-accordion { /* accordion SAT TOEFL... */
-    margin-top: 1em;
-	margin-bottom:0 !important;
-}
-
-@media only screen and (max-width: 600px) { /* on mobile */
-	.fp-illustration{ /* hide illustration frontpage mobile view */
-    	display:none;
-  }
-}
-
-@media only screen and (min-width: 600px) { /*on NOT mobile */
-	.fp-illustration {
-		max-width: 300px;
-	}
-
-	.fp-flex-ill { /* flex div with img illustration */
-	  width:300px;
-	}
-
-	.fp-flex-text{ /* flex div with text */
-		display: flex;
-    	justify-content: center;
-    	flex-direction: column;
-		padding-left: 3em;
-	}
-	.entry-content{
-		margin-top:0;
-	}
-}
-
-/* =============== Mailchimp embeded form =========== */
-
 .indicates-required{
 	text-align:right;
 }
@@ -232,49 +155,6 @@ code { font-family: monospace; }
 	margin-top:1em;
 }
 
-/* =============== start - Shortcodes ultimate tabs customize =========== */
-
-.su-tabs-mobile-scroll .su-tabs-nav { /* sticky nav */
-	position: -webkit-sticky !important;
-	position: sticky !important;
-	top: 0 !important;
-	background-color: gray !important;
-}
-
-.su-tabs-pane { /* body tab bg color + text color + font size */
-    background: #191e26!important;
-	color: #d9d9d9!important;
-	font-size: 15px!important;
-}
-
-.su-tabs-nav span.su-tabs-current { /* active tab */
-    background: #191e26 !important;
-	    font-size: 30px;
-}
-
-.su-tabs-mobile-scroll .su-tabs-nav { /* inactive tabs */
-background-color: #28303d !important;
-font-size: 30px;
-}
-
-.su-tabs-nav span:focus { /* clicked tab, remove outline on selection */
-	outline:none !important;
-}
-
-.su-tabs-nav span{ /* right border tabs */
- border-right: 1px solid white;
-}
-
-.su-tabs { /* border of tabs */
-	background: #28303d!important;
-	max-width: 100% !important;
-}
-
-.su-tabs-nav span { /* color of tab labels */
-	color: #fff!important;
-}
-
-/* =============== end - Shortcodes ultimate tabs customize =========== */
 
 .tab-list { /* list in tabs */
 	padding-left:17px;
